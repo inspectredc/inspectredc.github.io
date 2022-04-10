@@ -3634,7 +3634,7 @@ var app = (function () {
         c() {
           (n = w("div")),
             (n.innerHTML =
-              '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Video Game songs.</p> \n\n<p class="mb-3">Each Video Game Heardle is randomly chosen from my head. All copyright goes to relevant artists.</p> \n\n<p class="mb-3">Songs included are OPs, EDS, and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. Video Game version made by inspectredc :)'),
+              '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a>, and <a href="https://anime-heardle.glitch.me/" title="Heardle">Anime Heardle</a> but for Video Game songs.</p> \n\n<p class="mb-3">The music is chosen from songs I recognise so may be easy :).</p> \n\n<p class="mb-3"> Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. Video Game version made by inspectredc :)'),
             M(n, "class", "text");
         },
         m(e, t) {
@@ -3822,7 +3822,7 @@ var app = (function () {
         P(async function () {
           (async function () {
             const e = await fetch(
-              "https://anime-heardle.glitch.me/supporters.json"
+              ""
             );
             return await e.json();
           })().then((e) => {
@@ -3850,7 +3850,7 @@ var app = (function () {
               (r = x()),
               (s = w("p")),
               (s.innerHTML =
-                '<p class="mb-3">If you\'ve enjoyed playing Video Game Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
+                '<p class="mb-3">If you\'ve enjoyed playing Video Game Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> as this project is based on their work.</p>'),
               (i = x()),
               (o = w("div")),
               Q(a.$$.fragment),
@@ -4459,7 +4459,7 @@ var app = (function () {
                   ? (t += "⬛️")
                   : (t += "🟥")
                 : (t += "⬜️");
-            let o = e + "\n\n" + t + "\n\nhttps://anime-heardle.glitch.me\n";
+            let o = e + "\n\n" + t + "\n\nhttps://inspectredc.github.io/\n";
             if (
               !navigator.share ||
               !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
