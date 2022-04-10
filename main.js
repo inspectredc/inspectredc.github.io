@@ -4459,7 +4459,7 @@ var app = (function () {
                   ? (t += "⬛️")
                   : (t += "🟥")
                 : (t += "⬜️");
-            let o = e + "\n\n" + t + "\n\nhttps://inspectredc.github.io/\n";
+            let o = e + "\n\n" + t + /*"\n\nhttps://inspectredc.github.io/\n"*/"\n";
             if (
               !navigator.share ||
               !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -8625,14 +8625,24 @@ var app = (function () {
                 song: "File Select"
             },
             {
-                url: "https://soundcloud.com/user-272592510/mario-kart-wii-coconut-mall?in=user-272592510/sets/mario-kart-wii-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-                answer: "Mario Kart Wii",
-                song: "Coconut Mall"
-            },
-            {
                 url: "https://soundcloud.com/user-272592510/super-mario-rpg-legend-of-54",
                 answer: "Super Mario RPG: Legend of the Seven Stars",
                 song: "Fight against Koopa"
+            },
+            {
+              url: "https://soundcloud.com/vgmplanet/folsense-1?in=vgmplanet/sets/professor-layton-and-the-diabolical-box-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+              answer: "Professor Layton and the Diabolical Box",
+              song: "Folsense"
+            },  
+            {
+              url: "https://soundcloud.com/user-445991624/sonic-mania-chemical-plant-zone-act-1",
+              answer: "Sonic Mania",
+              song: "Chemical Plant Zone Act 1"
+            },
+            {
+              url: "https://soundcloud.com/vgmplanet/eterna-forest?in=vgmplanet/sets/pokemon-diamond-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+              answer: "Pokemon Diamond/Pearl/Platinum",
+              song: "Eterna Forest"
             },
             {
                 url: "https://soundcloud.com/alexctba/theme-of-laura",
@@ -8645,59 +8655,49 @@ var app = (function () {
                 song: "Onett Theme"
             },
             {
+              url: "https://soundcloud.com/user-272592510/mario-kart-wii-coconut-mall?in=user-272592510/sets/mario-kart-wii-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+              answer: "Mario Kart Wii",
+              song: "Coconut Mall"
+            },
+            {
                 url: "https://soundcloud.com/vgmplanet/fear-of-the-heavens",
                 answer: "Secret of Mana",
                 song: "Fear of the Heavens"
             },
             {
-                url: "https://soundcloud.com/vgmplanet/01-professor-laytons-theme?in=vgmplanet/sets/professor-layton-and-the&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-                answer: "Professor Layton and the Curious Village",
-                song: "Professor Layton's Theme"
-            },
-            {
-                url: "https://soundcloud.com/vgmplanet/folsense-1?in=vgmplanet/sets/professor-layton-and-the-diabolical-box-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-                answer: "Professor Layton and the Diabolical Box",
-                song: "Folsense"
-            },
-            {
-                url: "https://soundcloud.com/vgmplanet/sets/pokemon-red-ost",
+                url: "https://soundcloud.com/vgmplanet/16-guide-2?in=vgmplanet/sets/pokemon-red-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 answer: "Pokemon Red/Blue/Yellow",
                 song: "Guide"
             },
             {
-                url: "https://soundcloud.com/vgmplanet/sets/pokemon-x-and-y-ost",
+              url: "https://soundcloud.com/vgmplanet/steel-samurai?in=vgmplanet/sets/phoenix-wright-ace-attorney-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+              answer: "Phoenix Wright Ace Attorney",
+              song: "Steel Samurai"
+            },
+            {
+                url: "https://soundcloud.com/vgmplanet/lumiose-city?in=vgmplanet/sets/pokemon-x-and-y-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 answer: "Pokemon X/Y",
-                song: "Waluigi Pinball"
+                song: "Lumiose City"
             },
             {
-                url: "https://soundcloud.com/vgmplanet/sets/pokemon-diamond-ost",
-                answer: "Pokemon Diamond/Pearl/Platinum",
-                song: "Eterna Forest"
+              url: "https://soundcloud.com/vgmplanet/01-professor-laytons-theme?in=vgmplanet/sets/professor-layton-and-the&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+              answer: "Professor Layton and the Curious Village",
+              song: "Professor Layton's Theme"
             },
             {
-                url: "https://soundcloud.com/vgmplanet/sets/pokemon-black-and-white-ost",
+                url: "https://soundcloud.com/vgmplanet/driftveil-city?in=vgmplanet/sets/pokemon-black-and-white-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 answer: "Pokemon Black/White",
                 song: "Driftveil City"
             },
             {
-                url: "https://soundcloud.com/vgmplanet/sets/phoenix-wright-ace-attorney-justice-for-all-ost",
+                url: "https://soundcloud.com/vgmplanet/kurain-village?in=vgmplanet/sets/phoenix-wright-ace-attorney-justice-for-all-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
                 answer: "Ace Attorney Justice For All",
                 song: "Kurain Village"
-            },
-            {
-                url: "https://soundcloud.com/vgmplanet/sets/phoenix-wright-ace-attorney-ost",
-                answer: "Phoenix Wright Ace Attorney",
-                song: "Steel Samurai"
             },
             {
                 url: "https://soundcloud.com/user409121565/mario-kart-ds-ost-waluigi",
                 answer: "Mario Kart DS",
                 song: "Waluigi Pinball"
-            },
-            {
-                url: "https://soundcloud.com/user-445991624/sonic-mania-chemical-plant-zone-act-1",
-                answer: "Sonic Mania",
-                song: "Chemical Plant Zone Act 1"
             }
           ],
           Pn
