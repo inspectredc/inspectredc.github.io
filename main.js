@@ -1619,12 +1619,13 @@ var app = (function () {
             e[15]
               ? e[4].isPrime
                 ? e[8].slice(-1)[0]
-                : e[2].maxAttempts * e[2].attemptInterval
+                : e[8].slice(-1)[0]
+                //: e[2].maxAttempts * e[2].attemptInterval   CHANGED
               : e[3]
           ) + "",
         N = !e[12] && 1 == e[0] && tt();
       function H(e, t) {
-        return e[4].isPrime ? rt : nt;
+        return e[4].isPrime ? rt : rt /*nt CHANGED*/;
       }
       let I = H(e),
         W = I(e);
@@ -1732,7 +1733,8 @@ var app = (function () {
                       e[15]
                         ? e[4].isPrime
                           ? e[8].slice(-1)[0]
-                          : e[2].maxAttempts * e[2].attemptInterval
+                          : e[8].slice(-1)[0]
+                          //: e[2].maxAttempts * e[2].attemptInterval CHANGED
                         : e[3]
                     ) + "") &&
                 $(O, L);
@@ -1874,6 +1876,7 @@ var app = (function () {
       };
     }
     function it(e) {
+      return st(e) //CHANGED / ADDED
       let t,
         n = Array(Math.floor(e[3] / e[2].attemptInterval)),
         r = [];
@@ -2230,8 +2233,9 @@ var app = (function () {
                   1 == s
                     ? p.isPrime
                       ? (n(10, (v = (w / u) * 100)), w > u && M())
-                      : (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
-                        w > d * f.attemptInterval && M())
+                      : (n(10, (v = (w / u) * 100)), w > u && M())
+                      /*: (n(10, (v = (w / (d * f.attemptInterval)) * 100)),
+                        w > d * f.attemptInterval && M())*/     // CHANGED
                     : (n(10, (v = (w / m) * 100)), w > m && M());
               });
           }
@@ -2272,7 +2276,8 @@ var app = (function () {
                 16,
                 (l = p.isPrime
                   ? (a[o - 1] / a.slice(-1)[0]) * 100
-                  : (d / f.maxAttempts) * 100)
+                  //: (d / f.maxAttempts) * 100) CHANGED
+                  : (a[o - 1] / a.slice(-1)[0]) * 100)
               ),
             384 & e.$$.dirty[0] && (u = a[o - 1]);
         }),
@@ -2304,7 +2309,7 @@ var app = (function () {
                 (setTimeout(() => {
                   n(13, (S = !0));
                 }, 6e3),
-                T());
+                T()); 
           },
           () => {
             y.toggle();
@@ -3067,6 +3072,7 @@ var app = (function () {
       return (2 * c) / (s.length + i.length);
     }
     function bt(t) {
+      return St(t) // CHANGED / ADDED
       let n, r;
       return {
         c() {
@@ -3993,7 +3999,8 @@ var app = (function () {
         N = [];
       for (let t = 0; t < L.length; t += 1) N[t] = on(Xt(e, L, t));
       function H(e, t) {
-        return 0 == e[3] ? un : e[4] ? ln : an;
+        //return 0 == e[3] ? un : e[4] ? ln : an; CHANGED
+        return 0 == e[3] ? un : e[4] ? ln : ln;
       }
       let I = H(e),
         W = I(e),
@@ -4239,6 +4246,7 @@ var app = (function () {
       };
     }
     function an(e) {
+      return ln(e)
       let t,
         n,
         r,
@@ -4789,6 +4797,7 @@ var app = (function () {
       };
     }
     function xn(e) {
+      return bn(e) //CHANGED / ADDED LINE
       let t,
         n,
         r,
