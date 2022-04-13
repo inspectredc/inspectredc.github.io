@@ -8750,6 +8750,11 @@ var app = (function () {
               song: "Instructor Mooselini's Rap"
             },
             {
+              url: "https://soundcloud.com/user-445991624/sonic-mania-chemical-plant-zone-act-1",
+              answer: "Sonic Mania",
+              song: "Chemical Plant Zone Act 1"
+            },
+            {
               url: "https://soundcloud.com/vgmplanet/5-kraids-lair?in=vgmplanet/sets/metroid-ost",
               answer: "Metroid",
               song: "Kraid's Lair"
@@ -8763,11 +8768,6 @@ var app = (function () {
               url: "https://soundcloud.com/vgmplanet/spark-mandrill?in=vgmplanet/sets/mega-man-x-ost",
               answer: "Megaman X",
               song: "Spark Mandrill"
-            },
-            {
-              url: "https://soundcloud.com/user-445991624/sonic-mania-chemical-plant-zone-act-1",
-              answer: "Sonic Mania",
-              song: "Chemical Plant Zone Act 1"
             },
             {
               url: "https://soundcloud.com/vgmplanet/eterna-forest?in=vgmplanet/sets/pokemon-diamond-ost&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
